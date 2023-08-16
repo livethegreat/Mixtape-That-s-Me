@@ -1,0 +1,1362 @@
+body{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    src: url(fonts/Poppins-Bold.ttf);
+    font-family: poppy;
+  }
+  
+  @font-face {
+  src: url(fonts/Poppins-Medium.ttf);
+  font-family: pops;
+  }
+  
+  @font-face {
+  src: url(fonts/Poppins-Light.ttf);
+  font-family: poppins;
+  }
+
+  @font-face {
+    src: url(fonts/Poppins-SemiBold.ttf);
+    font-family: popBlack;
+    }
+    @font-face {
+        src: url(fonts/Poppins-Italic.ttf);
+        font-family: popitaly;
+        }
+
+
+
+    /* Raleway Fonts */
+
+    @font-face {
+        src: url(Raleway/Raleway-Black.ttf);
+        font-family: ralley;
+      }
+
+
+      @font-face {
+        src: url(Raleway/Raleway-Bold.ttf);
+        font-family: raleyBold;
+      }
+      
+      @font-face {
+      src: url(Raleway/Raleway-Medium.ttf);
+      font-family: ralls;
+      }
+      
+      @font-face {
+      src: url(Raleway/Raleway-Light.ttf);
+      font-family: raleway;
+      }
+    
+      @font-face {
+        src: url(Raleway/Raleway-SemiBold.ttf);
+        font-family: raleBlack;
+        }
+
+        @font-face {
+            src: url(Raleway/Raleway-Italic.ttf);
+            font-family: raleItaly;
+            }
+
+    
+
+
+
+            a{
+                text-decoration: none;
+                color: inherit;
+                -webkit-tap-highlight-color: transparent;
+            }
+
+
+
+    @media only screen and (min-width: 200px) {
+
+
+#cover{
+    background-color: #e6f4f1;
+    padding-bottom: 5%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+    
+}
+
+#cover img{
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: thin;
+}
+
+#head{
+    font-size: 8vw;
+    text-align: left;
+    margin-left: 5%;
+    font-family: raleyBold;
+    line-height: 5%;
+}
+
+#title{
+    font-size: 5.5vw;
+    text-align: left;
+    margin-left: 5%;
+    font-family: ralls;
+    line-height: 5%;
+}
+
+#cover ul{
+
+    padding-left: 0;
+    margin-top: 10%;
+
+}
+
+#cover li{
+    list-style: none;
+    text-align: left;
+    font-size: 5vw;
+    font-family: pops;
+    margin-left: 5%;
+  
+}
+
+
+#section{
+    padding-bottom: 5%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+    
+}
+
+
+
+
+#head-el{
+    font-size: 8vw;
+    text-align: left;
+    margin-left: 5%;
+    font-family: raleyBold;
+    margin-bottom: 5%;
+   
+
+
+    
+}
+
+#boarding{
+    position: relative;
+    border-style: solid;
+    border-width: thick;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+margin-right: 75%;
+margin-left: 5%;
+color: #a63b00;
+
+
+}
+
+
+
+#section img{
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: thin;
+    
+}
+
+#write{
+  
+    text-align: left;
+    font-size: 5vw;
+    font-family: pops;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+
+#wrote{
+  
+    text-align: left;
+    font-size: 3.8vw;
+    font-family: pops;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+
+
+
+#write-el{
+  
+    text-align: left;
+    font-size: 5vw;
+    font-family: pops;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+
+#listen button{
+    width: 70%;
+    margin: 5%;
+    padding: 5%;
+    font-size: 5vw;
+    font-family: raleBlack;
+    color: white;
+    background-color: #008000;
+    border-style: solid;
+    border-color: #008000;
+    cursor: pointer;
+}
+
+#lyrics button{
+    width: 70%;
+    padding: 5%;
+    font-size: 5vw;
+    font-family: raleBlack;
+   border-style: solid;
+   background-color: white;
+   color: #003b40;
+   border-color: #003b40;
+   margin-bottom: 5%;
+   cursor: pointer;
+    
+}
+
+
+
+/* --------------------------- LYRICS PAGE-------------------*/
+
+
+#wrap{
+    
+background-color: #f3fbfb;
+
+}
+
+
+#thunder{
+    background-color: #f3fbfb;
+    overflow: hidden;
+   padding-bottom: 20%;
+   margin: auto;
+    
+    
+}
+
+#line{
+    font-size: 8vw;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    font-family: raleyBold;
+    border-style: solid;
+    
+    border-width: thin;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+ padding-bottom: 5%;
+ 
+ 
+}
+
+
+#call{
+    list-style: none;
+    text-align: left;
+    font-size: 5vw;
+    font-family: ralls;
+    margin-left: 5%;
+    display: inline;
+  
+}
+
+#accordion{
+    position: relative;
+    width: 90%;
+  
+   margin: auto;
+    background-color: #f3fbfb;
+    border-style: solid;
+ border-left: transparent;
+ border-top: transparent;
+ border-right: transparent;
+
+ 
+}
+
+
+
+#accordion ion-icon{
+    display: inline-block;
+    font-size: 8vw;
+    color: #a63b00;
+}
+
+#big{
+ margin: auto;
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+  
+}
+
+#small{
+margin: auto;
+ float: right;
+ padding-top: 9%;
+ padding-bottom: 9%;
+
+
+
+}
+
+
+
+
+#quote{
+  font-size: 4.5vw;
+  font-family: popitaly;
+  color: #a63b00;
+    margin: auto;
+    margin-top: 25%;
+    text-align: left;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+
+
+#view{
+    width: 90%;
+    
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 5%;
+    font-size: 5vw;
+    font-family: raleBlack;
+    color: white;
+    background-color: #003b40;
+    border-style: solid;
+    border-color: #003b40;
+    cursor: pointer;
+}
+
+
+
+/*------------------------ SONGS --------------------------*/
+
+#topping{
+    font-size: 5.5vw;
+    text-align: center;
+    
+    font-family: raleyBold;
+    border-style: solid;
+    border-width: thin;
+
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    padding-bottom: 5%;
+   
+    
+}
+
+#support{
+    position: relative;
+   
+   
+  line-height: normal;
+ 
+
+  
+
+}
+
+
+#side{
+overflow: auto;
+
+    margin-left: 25%;
+    height: 100%;
+    border-style: solid;
+    border-width: thin;
+    border-bottom: transparent;
+    border-top: transparent;
+    border-right: transparent;
+   
+}
+
+#siding{
+    
+    transform: rotate(-90deg);
+    margin: auto;
+    text-align: center;
+    width: 175%;
+    margin-top: 100%;
+  
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    z-index: -1;
+   
+    font-size: 15vw;
+    font-family: poppy;
+    
+   
+ 
+  
+}
+
+
+
+
+#written{
+    
+  margin-left: 5%;
+  margin-right: 5%;
+    text-align: left;
+    font-size: 5vw;
+    font-family: pops;
+ 
+    
+  
+}
+
+
+#listening button{
+    width: 90%;
+  
+    padding: 5%;
+    font-size: 5vw;
+    font-family: raleBlack;
+    color: white;
+    background-color: #008000;
+    border-style: solid;
+    border-color: #008000;
+    cursor: pointer;
+   
+}
+
+
+
+
+#rhyme{
+    width: 90%;
+    margin: auto;
+    background-color: #f3fbfb;
+    border-style: solid;
+    border-color: #003b40;
+    overflow: hidden;
+    border-width: thin;
+    margin-top: 10%;
+    text-align: left;
+    
+    
+}
+
+#rhyme img{
+    width: 35%;
+    margin: 5%;
+   
+}
+
+
+
+
+#rhyme li{
+    text-align: left;
+
+    list-style: none;
+}
+
+#rhyme ul{
+    float: right;
+    text-align: left;
+   
+   width: 40%;
+   padding: 0;
+   margin-top: 10%;
+   margin-right: 15%;
+   line-height: 20%;
+  color: #003b40;
+}
+
+#artist{
+
+    text-align: left;
+    font-size: 3.5vw;
+    font-family: pops;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+
+#artist-el{
+
+    text-align: left;
+    font-size: 3.5vw;
+    font-family: pops;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+}
+
+
+
+#mic button{
+    width: 90%;
+    padding: 5%;
+    font-size: 5vw;
+    font-family: raleBlack;
+   border-style: solid;
+   background-color: white;
+   color: #003b40;
+   border-color: #003b40;
+ margin-top: 10%;
+   cursor: pointer;
+   margin-bottom: 20%;
+    
+}
+
+
+
+
+/* ------ footer ------- */
+
+
+#footing{
+    margin: auto;
+        background-color: #003b40;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        color: white;
+         
+        
+    }
+
+    #sub-el{
+
+        font-size: 6vw;
+     font-family: raleBlack;
+     text-align: left;
+       
+    }
+
+#footing p{
+    margin-left: 0;
+}
+
+#footing li{
+
+    list-style: none;
+  
+
+}
+
+#ul-2{
+    margin-top: 15%;
+    text-align: left;
+    
+  
+}
+
+#ul-2 ion-icon{
+    font-size: 8vw;
+    
+     cursor: pointer;
+    
+   
+}
+
+#copy{
+    margin: auto;
+  margin-top: 10%;
+  margin-right: 10%;
+    border-style: solid;
+    border-width: thin;
+ border-left: transparent;
+ border-bottom: transparent;
+ border-right: transparent;
+}
+
+
+
+
+
+}   
+
+
+
+
+    @media only screen and (min-width: 500px) {
+
+        #cover{
+            text-align: left;
+            padding-bottom: 0;
+            
+        }
+
+        #cover img{
+            width: 40%;
+            margin-top: 10%;
+            margin-bottom: 5%;
+            border-style: solid;
+            border-width: thin;
+            margin-left: 5%;
+            display: inline;
+            margin-right: 0;
+            
+            
+        }
+
+
+        #half{
+            width: 45%;
+           float: right;
+           margin-top: 10%;
+           margin-right: 5%;
+        }
+
+
+        
+#head{
+    font-size: 4.5vw;
+    text-align: left;
+    margin-left: 5%;
+    font-family: raleyBold;
+    line-height: 5%;
+}
+
+#title{
+    font-size: 3vw;
+    text-align: left;
+    margin-left: 5%;
+    font-family: ralls;
+    line-height: 5%;
+    
+}
+
+#cover ul{
+
+    padding-left: 0;
+    margin-top: 10%;
+    display: inline;
+
+}
+
+#cover li{
+    list-style: none;
+    text-align: left;
+    font-size: 3vw;
+    font-family: pops;
+    margin-left: 5%;
+  
+}
+
+#about-el{
+  
+    width: 50%;
+   float: left;
+   margin-top: 5%;
+
+  
+}
+
+#boarding{
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 55%;
+    padding-top: 3%;
+}
+
+
+#head-el{
+    font-size: 4.5vw;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    font-family: raleyBold;
+    width: 100%;
+    
+}
+
+#section{
+   position: relative;
+    border-style: solid;
+    border-width: thin;
+    border-width: thin;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    overflow: hidden;
+    padding-right: 5%;
+
+    
+}
+
+#section img{
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: solid;
+    border-width: thin;
+    margin-left: 5%;
+   
+    display: inline;
+    float: right;
+    
+}
+
+
+#whole{
+    
+ position: relative;
+    width: 45%;
+  display: inline;
+
+
+
+  
+}
+
+
+#write{
+    position: relative;
+    text-align: left;
+    font-size: 3vw;
+    font-family: pops;
+    width: 95%;
+  
+   margin-left: 5%;
+
+  
+}
+
+#wrote{
+    position: relative;
+    text-align: left;
+    font-size: 3vw;
+    font-family: pops;
+    width: 95%;
+  
+   margin-left: 5%;
+
+  
+}
+
+#write-el{
+    position: relative;
+    text-align: left;
+    font-size: 4vw;
+    font-family: pops;
+    width: 95%;
+  
+   margin-left: 5%;
+
+  
+}
+
+#listen{
+    display: inline;
+}
+
+#lyrics{
+    display: inline;
+}
+
+
+#listen button{
+    width: 40%;
+    margin: 5%;
+    padding: 3%;
+    font-size: 3vw;
+    
+    
+}
+
+#lyrics button{
+    width: 40%;
+    padding: 3%;
+    font-size: 3vw;
+   
+    
+}
+
+
+
+
+
+
+/*------------------------------LYRICS PAGE------------------------*/
+
+
+#thunder{
+    background-color: #f3fbfb;
+    overflow: hidden;
+    width: 60%;
+   padding-bottom: 10%;
+    
+    
+}
+
+#line{
+font-size: 4vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: raleyBold;
+ padding-bottom: 5%;
+ 
+ 
+}
+
+
+
+#call{
+ 
+    font-size: 3vw;
+    font-family: ralls;
+    margin-left: 5%;
+  
+}
+
+#accordion{
+    position: relative;
+    width: 90%;
+  
+  
+    background-color: #f3fbfb;
+
+
+
+ 
+}
+
+#accordion ion-icon{
+    font-size: 4vw;
+    color: #a63b00;
+}
+
+
+#big{
+    margin: auto;
+       float: left;
+       width: 50%;
+       text-align: left;
+       padding-top: 8%;
+       padding-bottom: 8%;
+   
+     
+   }
+   
+   #small{
+   margin: auto;
+    float: right;
+    padding-top: 7%;
+    padding-bottom: 7%;
+   
+   
+   
+   }
+
+
+   #quote{
+    margin-top: 22%;
+    font-size: 2.5vw;
+   }
+
+
+   #view{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 4%;
+    font-size: 3vw;
+    
+    
+}
+
+
+
+
+   /*-----------------------------SONGS ---------------------------*/
+
+   #topping{
+    font-size: 4vw;
+    text-align: center;
+    
+    font-family: raleyBold;
+    border-style: solid;
+    border-width: thin;
+
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    padding-bottom: 5%;
+   
+    
+}
+
+
+
+#support{
+    position: relative;
+                   
+                
+    line-height: normal;
+   
+   width: 80%;
+  margin: auto;
+  border-style: none;
+
+}
+
+
+#side{
+
+width:80%;
+                        border-style: solid;
+                        border-color: black;
+                        border-width: thin;
+                        margin-left: 15%;
+   
+}
+
+
+#siding{
+    transform: rotate(-90deg);
+    text-align: center;
+    width: 175%;
+  margin: auto;
+    overflow: hidden;
+   
+    right: 0;
+    
+    margin-top: 70%;
+    font-size: 10vw;
+    font-family: poppy;
+ 
+   
+ 
+  
+}
+
+
+
+
+#written{
+    
+    margin-left: 5%;
+    margin-right: 5%;
+      text-align: left;
+      font-size: 3vw;
+      font-family: pops;
+         
+    
+  }
+
+
+  #listening button{
+    font-size: 3vw;
+  }
+
+
+  #artist{
+
+    font-size: 2.5vw;
+  }
+
+  #artist-el{
+
+    font-size: 3vw;
+  }
+
+
+  #mic button{
+    font-size: 3vw;
+  }
+
+
+
+/* -------------- footer ---------- */
+
+
+#sub-el{
+        
+    font-size: 3.5vw;
+    
+    
+}
+
+
+#footing ul{
+
+    margin-top: 5%;
+
+}
+
+#ul-1{
+    display: inline-block;
+    width: 35%;
+    
+   
+}
+
+#ul-2{
+  float: right;
+ margin-right: 30%;
+ 
+   margin-top: 0;
+  width: 30%;
+}
+
+#ul-2 ion-icon{
+    font-size: 4vw;
+    margin: auto;
+   
+  
+}
+
+#copy{
+    margin: auto;
+    margin-top: 55%;
+    margin-right: 5%;
+  
+}
+
+#footing{
+   overflow: hidden;
+    
+}
+
+
+
+
+    }
+
+
+
+
+    @media only screen and (min-width: 1000px) {
+
+       
+
+        #cover img {
+            width: 40%;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+
+        #half{
+            margin-top: 10%;
+           
+        }
+
+         
+#head{
+    font-size: 3vw;
+    
+}
+
+
+
+#title{
+    font-size: 2vw;
+  
+}
+
+
+#cover li{
+   
+    font-size: 1.5vw;
+    
+    }
+
+    #head-el{
+        font-size: 3vw;
+        
+    }
+
+
+    #section img{
+        width: 40%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border-style: solid;
+        border-width: thin;
+        margin-left: 0;
+       
+       
+        
+    }
+
+    #about-el{
+  
+      margin: auto;
+      
+      margin-top: 5%;
+      
+      
+    }
+
+    #boarding{
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 65%;
+        padding-top: 2%;
+    }
+
+
+
+    #whole{
+    
+        position: relative;
+           width: 50%;
+         float: left;
+         margin: auto;
+         margin-left: 0;
+      
+       
+     
+       }
+
+    #write{
+   
+        font-size: 1.5vw;
+        margin-left: 5%;
+        
+        }
+
+
+
+        #write-el{
+   
+        font-size: 2vw;
+        margin-left: 5%;
+        
+        }
+
+
+        #wrote{
+   
+            font-size: 1.5vw;
+            margin-left: 5%;
+            
+            }
+
+    
+
+
+        #listen button{
+            width: 35%;
+            margin: 5%;
+            padding: 3%;
+            font-size: 1.5vw;
+           
+            
+            
+        }
+        
+        #lyrics button{
+            width: 35%;
+            padding: 3%;
+            font-size: 1.5vw;
+         
+            
+        }
+
+
+
+        
+
+/*------------------------------LYRICS PAGE------------------------*/
+
+
+#thunder{
+    background-color: #f3fbfb;
+    overflow: hidden;
+    width: 50%;
+   padding-bottom: 10%;
+    
+    
+}
+
+#line{
+font-size: 3vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: raleyBold;
+ padding-bottom: 5%;
+ 
+ 
+}
+
+
+
+#call{
+ 
+    font-size: 1.5vw;
+    font-family: ralls;
+    margin: auto;
+    margin-left: 5%;
+    
+  
+}
+
+#accordion{
+    position: relative;
+    width: 90%;
+    background-color: #f3fbfb;
+
+}
+
+
+#accordion ion-icon{
+    font-size: 2.5vw;
+    color: #a63b00;
+}
+
+
+#quote{
+    margin-top: 20%;
+    font-size: 1.5vw;
+}
+
+#view{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 3%;
+    font-size: 1.5vw;
+   
+    
+    
+}
+
+/* ----------------------------------- SONGS ------------------------------- */
+
+
+#topping{
+    font-size: 3vw;
+}
+
+
+#written{
+    
+ 
+      font-size: 1.5vw;
+      font-family: pops;
+         
+    
+  }
+
+
+  #listening button{
+    font-size: 1.5vw;
+  }
+
+
+  #rhyme img{
+    width: 25%;
+    margin: 5%;
+   
+}
+
+#rhyme ul{
+  
+   margin-right: 25%;
+   
+}
+
+
+#artist{
+
+    font-size: 1vw;
+  }
+
+  #artist-el{
+
+    font-size: 1.5vw;
+  }
+
+  #mic button{
+    font-size: 1.5vw;
+  }
+
+
+  #side{
+     margin: auto;
+     width:80%;
+     border-style: solid;
+     border-color: black;
+     border-width: thin;
+    margin-left: 25%;
+       
+    }
+
+
+  #siding{
+   position: absolute;
+    margin-top: 70%;
+    font-size: 6vw;
+    
+  
+}
+
+
+#support{
+    
+    margin-left: 18%;
+ width: 50%;
+
+
+}
+
+
+
+
+
+        /* ------------------------- Footing -------------------- */
+
+        #sub-el{
+        
+            font-size: 2vw;
+        }
+
+        #copy{
+            margin: auto;
+            margin-top: 30%;
+            margin-right: 5%;
+          
+        }
+
+        #ul-2 ion-icon{
+            margin: auto;
+            font-size: 2.5vw;
+          
+          
+        }
+
+}
